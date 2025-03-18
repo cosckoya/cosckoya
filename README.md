@@ -13,7 +13,7 @@ I'm [Your Name], a passionate developer always looking to learn and build cool t
 - ⚡ Fun fact: **[a fun or interesting fact about you]**
 
 ## 📊 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=cosckoya&show_icons=true&theme=radical)
 
 ## 🌎 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)  
