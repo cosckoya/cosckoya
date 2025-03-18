@@ -1,25 +1,34 @@
-I'm Cosckoya, a DevOps and Cloud Architect who loves Kubernetes, AWS, Infrastructure as Code (IaC), and everything DevOps. I have a strong interest in cloud security, automation, and scalable architectures using technologies like Wiz, Kubernetes, AWS, and DevSecOps practices.
+Hey, I'm **Cosckoya** — your go-to DevOps and Cloud Architect with a passion for Kubernetes, AWS, and all things Infrastructure as Code (IaC).
 
-🚀 About Me
+I design, build, and optimize cloud systems with a focus on automation, security, and scalability. If it's cloud-native, I’m all over it, from Kubernetes clusters to AWS services, making sure everything runs smoothly and securely.
 
-🔭 I’m currently working with AWS, Wiz, Prowler, Mend, Azure DevOps, and GitHub Actions
+## 🚀 What I’m Working With:
 
-🌱 I’m currently learning Python, TypeScript, painting miniatures, and relearning how to play Magic: The Gathering
+- **AWS** (for building and scaling cloud infrastructure)
+- **Wiz** (for managing cloud security)
+- **Prowler** (continuous security scanning)
+- **Mend** (security and dependency management)
+- **Azure DevOps** & **GitHub Actions** (CI/CD pipelines to streamline dev workflows)
 
-👯 I’m looking to collaborate on open-source projects related to DevOps, security, and cloud architecture
+## 🌱 Currently Learning:
+- **Python** & **TypeScript** (diving deeper into modern programming)
+- **Kubernetes Optimization** (always looking for the next efficiency)
+- **Magic: The Gathering** (because even cloud infrastructure needs strategy!)
 
-🤔 I’m looking for help with optimizing Kubernetes deployments and expanding my knowledge of pentesting
+## 👯 What I’m Looking For:
+- Collaborations on **open-source projects** related to cloud architecture, DevOps, and security
+- **Kubernetes deployment optimization** and improving **pentesting** skills
 
-💬 Ask me about Cloud infrastructure, Kubernetes, DevOps automation, and security best practices
+## 💬 Let’s Chat About:
+- **Cloud Infrastructure Design** (with a focus on scalability and reliability)
+- **DevOps Automation** (CI/CD pipelines, Infrastructure as Code)
+- **Security Best Practices** (staying ahead of vulnerabilities and threats)
 
-⚡ Fun fact: I love sword and sorcery fantasy like Conan, Discworld, Drizzt Do'Urden, and The Lord of the Rings. I also enjoy watching movies at the cinema, attending tech events (mostly for the swag!), and traveling around the world to explore new cultures, music, and food.
+## ⚡ Fun Fact:
+When I’m not building cloud environments, I’m traveling to new places, trying local food, and attending tech events (yes, the swag is a bonus). I also enjoy watching movies, painting miniatures, and, of course, playing Magic: The Gathering for fun.
 
 ## 📊 GitHub Stats
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=cosckoya&show_icons=true&theme=radical)
-
-## 🌎 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://es.linkedin.com/in/javier-coscolla-cabrera-95948224)  
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?logo=twitter)](https://twitter.com/cosckoya)  
 
 ---
 
