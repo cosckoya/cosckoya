@@ -1,4 +1,4 @@
-# Hey, I’m **Cosckoya** – Your Go-To DevSecOps & Cloud Architect 🚀
+# Hey, I’m **Cosckoya** – A DevSecOps & Cloud Architect 🚀
 
 I design, build, and scale cloud infrastructures with a strong emphasis on **automation**, **security**, and **resilience**. Whether it’s optimizing multi-cloud systems or implementing secure architectures, I’m always focused on delivering secure, scalable, and efficient solutions.
 
