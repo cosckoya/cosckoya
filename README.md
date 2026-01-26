@@ -1,6 +1,4 @@
-<div align="center">
-          
-```text
+```
           .                                                      .
         .n                   .                 .                  n.
   .   .dP                  dP                   9b                 9b.    .
@@ -23,6 +21,8 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                               `b  `       '  d'
                                `             '
 ```
+
+<div align="center">
 
 **DevOps & Cloud Architect • Platform Engineer • AI Infrastructure Specialist**
 
