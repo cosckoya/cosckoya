@@ -1,0 +1,360 @@
+# ============================================================================
+# Claude Code Files and Directories
+# ============================================================================
+
+# Main Claude Code directory (stored in user home, but including just in case)
+.claude/
+.claude/**
+
+# Claude Code specific files and directories
+.claude/cache/
+.claude/debug/
+.claude/file-history/
+.claude/history.jsonl
+.claude/paste-cache/
+.claude/plans/
+.claude/plugins/
+.claude/projects/
+.claude/session-env/
+.claude/shell-snapshots/
+.claude/skills/
+.claude/stats-cache.json
+.claude/statsig/
+.claude/tasks/
+.claude/todos/
+
+# Claude Code session files
+claude-session-*.json
+claude-*.log
+
+# Claude Code temporary files
+*.claude-tmp
+.claude-*
+
+# CLAUDE.md backup files
+CLAUDE.md.backup
+CLAUDE.md~
+
+# ============================================================================
+# Operating System Files
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# IDEs and Editors
+# ============================================================================
+
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ============================================================================
+# Language-Specific Files
+# ============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.env
+.env.test
+.env.production
+.cache
+.parcel-cache
+.next/
+out/
+.nuxt/
+dist/
+.cache/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+
+# TypeScript
+*.tsbuildinfo
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Java
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ============================================================================
+# Package Managers & Dependencies
+# ============================================================================
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Pulumi
+.pulumi/
+Pulumi.*.yaml
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# ============================================================================
+# Logs and Databases
+# ============================================================================
+
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# ============================================================================
+# Temporary and Cache Files
+# ============================================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.cache
+.cache/
+
+# ============================================================================
+# Security and Secrets
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.envrc
+
+# Credentials and secrets
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+credentials.json
+secrets.json
+secrets.yaml
+secrets.yml
+*.secret
+
+# AWS
+.aws/
+
+# SSH
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# ============================================================================
+# Build Outputs and Artifacts
+# ============================================================================
+
+*.o
+*.a
+*.obj
+*.elf
+*.lib
+*.dll
+*.dylib
+*.dSYM
+build/
+dist/
+target/
+bin/
+obj/
+output/
+
+# ============================================================================
+# Miscellaneous
+# ============================================================================
+
+# Backup files
+*.bak
+*.backup
+*~
+*.orig
+
+# Archive files (usually don't want to commit these)
+# *.zip
+# *.tar
+# *.tar.gz
+# *.rar
+# *.7z
+
+# Large files (uncomment if needed)
+# *.iso
+# *.dmg
+# *.pkg
