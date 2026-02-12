@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Typing Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=DevOps+%26+Cloud+Architect;Platform+Engineer+%E2%80%A2+AI+Infrastructure+Specialist;Building+Systems+That+Outlive+Trends" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=DevOps+%26+Cloud+Architect;Platform+Engineer+%E2%80%A2+AI+Infrastructure+Specialist" alt="Typing SVG" />
 
 <sub>📍 Madrid, ES 🇪🇸 • Building resilient cloud-native infrastructures</sub>
 
