@@ -1,38 +1,7 @@
 <div align="center">
 
-<<<<<<< HEAD
-```
-          .                                                      .
-        .n                   .                 .                  n.
-  .   .dP                  dP                   9b                 9b.    .
- 4    qXb         .       dX                     Xb       .        dXp     t
-dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
-9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
- 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
-  `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
-    `9XXXXXXXXXXXP' `9XX'   DIE    `98v8P'  HUMAN   `XXP' `9XXXXXXXXXXXP'
-        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
-                        )b.  .dbo.dP'`v'`9b.odb.  .dX(
-                      ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
-                     dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb
-                    dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
-                    9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP
-                     `'      9XXXXXX(   )XXXXXXP      `'
-                              XXXX X.`v'.X XXXX
-                              XP^X'`b   d'`X^XX
-                              X. 9  `   '  P )X
-                              `b  `       '  d'
-                               `             '
-```
-</div>
-
-<div align="center">
-
-**DevOps & Cloud Architect • Platform Engineer • AI Infrastructure Specialist**
-=======
 <!-- Animated Typing Header -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=DevOps+%26+Cloud+Architect;Platform+Engineer+%E2%80%A2+AI+Infrastructure+Specialist;Building+Systems+That+Outlive+Trends" alt="Typing SVG" />
->>>>>>> 866e142 (Init Commit)
 
 <sub>📍 Madrid, ES 🇪🇸 • Building resilient cloud-native infrastructures</sub>
 
@@ -43,8 +12,8 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
 Specializing in scalable, secure, automated environments where **infrastructure**, **AI systems**, and **developer experience** converge.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/cosckoya)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@domain.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cosckoya)
+[![Website](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://cosckoya.github.io)
 
 </div>
 
@@ -175,11 +144,11 @@ Developer Experience engineering
 
 <div align="center">
 
-<a href="https://github.com/cosckoya?tab=repositories&q=&type=source&language=&sort=stargazers">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cosckoya&repo=your-main-repo&theme=transparent&hide_border=true" alt="Featured Repo" width="48%" />
+<a href="https://github.com/cosckoya/.dotfiles">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cosckoya&repo=.dotfiles&theme=transparent&hide_border=true" alt="Linux Dotfiles" width="48%" />
 </a>
-<a href="https://github.com/cosckoya?tab=repositories&q=&type=source&language=&sort=stargazers">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cosckoya&repo=another-repo&theme=transparent&hide_border=true" alt="Featured Repo" width="48%" />
+<a href="https://github.com/cosckoya/toolbox">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cosckoya&repo=toolbox&theme=transparent&hide_border=true" alt="Toolbox Container" width="48%" />
 </a>
 
 <sub>⭐ Check out my [pinned repositories](https://github.com/cosckoya?tab=repositories) for more projects</sub>
@@ -248,7 +217,7 @@ Engineer of realities, not products.
 I'm always interested in collaborating on **cloud infrastructure projects**, **AI/ML systems**, and **platform engineering initiatives**.
 
 [![Open for Collaboration](https://img.shields.io/badge/Open_for-Collaboration-success?style=for-the-badge)](https://github.com/cosckoya)
-[![Available for Consulting](https://img.shields.io/badge/Available_for-Consulting-blue?style=for-the-badge)](mailto:your.email@domain.com)
+[![Available for Consulting](https://img.shields.io/badge/Available_for-Consulting-blue?style=for-the-badge)](https://linkedin.com/in/cosckoya)
 
 **💡 Open to:** Cloud architecture consulting • Platform engineering • AI infrastructure design • Multi-cloud strategy
 

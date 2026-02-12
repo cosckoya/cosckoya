@@ -4,245 +4,194 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a GitHub profile repository. The README.md file in this repository is automatically displayed on the GitHub profile page at https://github.com/cosckoya.
+This is a **GitHub profile repository** - the README.md is automatically displayed at https://github.com/cosckoya.
 
-## Repository Structure
-
+**Structure:**
 ```
 cosckoya/
-├── README.md           # Profile page content (displayed on GitHub profile)
-└── img/               # Images referenced in README.md
+├── README.md       # Profile page (auto-displayed on GitHub)
+├── img/           # Profile images (technical/fantasy aesthetic)
+└── .gitignore     # Comprehensive (includes Claude Code files)
 ```
 
-## Working with README.md
+**Profile Identity:** DevOps & Cloud Architect, Platform Engineer, AI Infrastructure Specialist focused on multi-cloud AI infrastructure, MCP servers, multi-agent systems, and GitOps.
 
-The README.md serves as the public-facing GitHub profile and follows these conventions:
+## Key Requirements
 
-- **Professional Identity**: DevOps & Cloud Architect, Platform Engineer, AI Infrastructure Specialist
-- **Current Focus**: Multi-cloud AI infrastructure, MCP server development, multi-agent systems, GitOps
-- **Core Sections**: About, Core Expertise, Tech Stack, GitHub Activity (with stats widgets), Beyond Code
-- **Style**: Structured with tables, centered elements, inline code blocks, and embedded GitHub stats widgets
+### Critical GitHub Profile Rules
+1. Repository name MUST match username exactly (`cosckoya`)
+2. Repository MUST be public
+3. README.md MUST be in root directory
+4. README.md MUST not be empty
 
-### GitHub Stats Widgets
+### Profile Style & Content
+- **Sections:** About, Core Expertise, Tech Stack, GitHub Stats, Featured Projects, Beyond Code
+- **Visual Elements:** Animated typing header, stat widgets, centered layouts, tables, badges
+- **Theme:** Transparent background (`theme=transparent&hide_border=true`) for all widgets
+- **Tone:** Professional + personal (DevOps expertise + fantasy/gaming interests)
 
-The profile uses several dynamic stat widgets that auto-update:
-- `github-readme-stats.vercel.app` - GitHub statistics and language breakdown
-- `github-readme-streak-stats.herokuapp.com` - Contribution streak
-- `github-readme-activity-graph.vercel.app` - Activity graph
-- `github-profile-trophy.vercel.app` - Achievement trophies
-- `metrics.lecoq.io` - Detailed metrics
+## Pre-Commit Validation Checklist
 
-These widgets use URL parameters for theming (transparent/github-compact themes, hide_border=true).
+**Before committing changes to README.md, verify:**
 
-### HTML Comments for Auto-Updates
+1. **No Merge Conflict Markers**
+   ```bash
+   grep -n "<<<<<<< HEAD\|=======\|>>>>>>>" README.md
+   # Should return nothing
+   ```
 
-The README includes HTML comment markers for automated content injection:
-- `<!--START_SECTION:activity-->` / `<!--END_SECTION:activity-->` - Latest GitHub activity (likely updated via GitHub Actions)
-- `<!-- BLOG-POST-LIST:START -->` / `<!-- BLOG-POST-LIST:END -->` - Blog posts section (currently commented out)
+2. **No Placeholder Content**
+   ```bash
+   grep -E "(your-.*-repo|your\.email|your-portfolio\.com|lorem ipsum)" README.md
+   # Should return nothing
+   ```
 
-## Images
+3. **Widget URLs Are Valid**
+   - Test each widget URL in browser before committing
+   - Ensure username parameter is correct (`username=cosckoya`)
+   - Verify theme parameters work (`theme=transparent&hide_border=true`)
 
-All images are stored in `/img/` and should maintain consistent theming with the profile's technical/fantasy aesthetic:
-- Profile icons (favicon.png, logo.png)
-- Technical imagery (rj45.png, vim.png)
-- Fantasy/gaming references (drizzt.jpg, rorschach.png, zelda.png)
-- UI elements (colors.png, welcome.png)
+4. **Image Links Work**
+   ```bash
+   ls -1 img/*.png img/*.jpg 2>/dev/null
+   # Verify all images referenced in README exist
+   ```
 
-## GitHub Profile Best Practices (2026)
+5. **HTML Comment Markers Intact**
+   - Do not remove `<!--START_SECTION:activity-->` / `<!--END_SECTION:activity-->`
+   - These enable GitHub Actions auto-updates
 
-### Core Principles
+6. **Markdown Syntax Valid**
+   - Check for unclosed HTML tags (`<div>` must have `</div>`)
+   - Verify table formatting
+   - Test badge image URLs
 
-**Dynamic Content Over Static**: Profiles that auto-update with real-time data (GitHub stats, contributions, activity feeds) are significantly more engaging than static bios. This profile already implements this with multiple stat widgets.
+## Dynamic Widgets Reference
 
-**Visual Hierarchy & Readability**:
-- Lead with a clear professional identity statement
-- Use modular sections with distinct purposes
-- Balance visual elements with substantive content
-- Maintain consistent theming across all components
+The profile uses auto-updating stat widgets:
 
-**Automation First**: Leverage GitHub Actions for self-updating content rather than manual maintenance. The HTML comment markers (`<!--START_SECTION:activity-->`) enable this.
+```markdown
+# GitHub Stats
+https://github-readme-stats.vercel.app/api?username=USERNAME&params
 
-### Essential Requirements (GitHub Official)
+# Streak Stats
+https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&params
 
-For the profile README to display correctly:
-1. Repository name must exactly match GitHub username (`cosckoya`)
-2. Repository must be public
-3. README.md must be in the root directory
-4. README.md must contain content (empty files won't display)
+# Activity Graph
+https://github-readme-activity-graph.vercel.app/graph?username=USERNAME&params
 
-### Current Trends & Tools
+# Profile Trophy
+https://github-profile-trophy.vercel.app/?username=USERNAME&params
 
-**Popular Dynamic Widgets**:
-- GitHub Readme Stats (78k+ stars) - statistics and language breakdown
-- GitHub Streak Stats (6.5k+ stars) - contribution streaks
-- GitHub Profile Trophy - achievement visualization
-- Metrics (16k+ stars) - comprehensive metrics dashboards
-- Readme Typing SVG (8k+ stars) - animated text effects
+# Typing Animation
+https://readme-typing-svg.herokuapp.com?params
+```
 
-**Automation Tools**:
-- `blog-post-workflow` - Auto-sync blog posts
-- `waka-readme-stats` - Coding activity from WakaTime
-- `profile-summary-cards` - Multi-metric dashboards
-- GitHub Actions workflows for scheduled updates
-
-### Content Strategy
-
-**Show, Don't Just Tell**:
-- Link to live projects and deployed applications
-- Embed visual previews and screenshots
-- Use badges for skills but balance with depth
-- Include real metrics over self-assessed skill levels
-
-**Professional + Personal Balance**: The most effective 2026 profiles combine:
-- Clear professional credibility and expertise
-- Authentic personal voice and interests
-- Visual style reflecting individual identity
-- Strategic calls-to-action (star repos, connect, collaborate)
-
-**Responsive Design**: Consider dark/light mode compatibility and mobile viewing. The transparent theme approach used in this profile adapts well across contexts.
-
-### Advanced Patterns
-
-**Multi-Platform Integration**:
-- Stack Overflow activity
-- Blog post feeds (Medium, Dev.to)
-- Social media presence
-- Contribution to open source projects
-
-**Interactive Elements**:
-- Collapsible sections with `<details>` tags (already used for "More Statistics")
-- Clickable tables of contents
-- Badge ecosystems linking to profiles/docs
-- SVG animations and custom graphics
-
-### Common Pitfalls to Avoid
-
-**Over-Engineering**:
-- Don't add every possible stat widget (causes visual clutter)
-- Avoid excessive GIFs and animations (can appear unprofessional)
-- Don't list every technology ever touched (focus on current expertise)
-
-**Maintenance Failures**:
-- Broken image links (test all images after adding)
-- Dead external widget URLs (verify services are reliable)
-- Outdated information (use automation to prevent this)
-- Manual sections becoming stale (automate or remove)
-
-**Readability Issues**:
-- Wall of badges with no context
-- Excessive use of emojis
-- Inconsistent formatting or theming
-- Mobile-unfriendly layouts (especially large tables)
-
-**Visibility Requirements**:
-- Repository becoming private (makes README disappear)
-- Empty or deleted README file (profile won't display)
-- Repository name mismatch with username (must be exact match)
-
-**Professional Concerns**:
-- Too casual for professional context (balance personality with professionalism)
-- No clear call-to-action or contact method
-- Generic template content without customization
-- Lack of substance behind visual appeal
-
-## Potential Enhancements
-
-Based on 2026 best practices, consider these improvements:
-
-### GitHub Actions Automation
-
-**Activity Updates**: The `<!--START_SECTION:activity-->` markers suggest a workflow for updating recent GitHub activity. If not already implemented, use:
-- `gautamkrishnar/blog-post-workflow` - Auto-updates activity section
-- Schedule: Daily or on push to keep content fresh
-
-**Blog Post Integration**: The commented-out `<!-- BLOG-POST-LIST:START -->` section could be activated with:
-- RSS feed from personal blog or Medium
-- Automatic updates via GitHub Actions
-- No manual maintenance required
-
-**WakaTime Stats**: Add coding activity statistics:
-- Weekly language breakdown
-- Total coding hours
-- Most active times
-
-### Additional Widgets to Consider
-
-**3D Contribution Graph**: `github-profile-3d-contrib` provides novel visualization of contribution patterns
-
-**Spotify Now Playing**: Real-time display of currently playing music (personal touch aligning with "Beyond Code" section)
-
-**Skill Badges**: Shields.io badges for specific technologies mentioned in Tech Stack (Python, TypeScript, Kubernetes, etc.)
-
-**Recent Blog Posts**: If maintaining a technical blog, auto-sync latest posts
-
-### Content Additions
-
-**Pinned Repositories Section**: Highlight 3-4 key projects with:
-- Brief descriptions
-- Tech stack used
-- Links to live demos
-- Repository cards with stats
-
-**Contact Methods**: Add professional contact options:
-- LinkedIn profile link
-- Professional email
-- Calendly for meetings
-- Discord/Slack community links
-
-**Call-to-Action**: Add specific CTAs like:
-- "📫 Open to consulting opportunities"
-- "🤝 Available for collaborations on X, Y, Z"
-- "⭐ Check out my pinned repositories"
+**Common Parameters:**
+- `theme=transparent` - Transparent background
+- `hide_border=true` - Remove widget borders
+- `count_private=true` - Include private repos in stats
+- `show_icons=true` - Display icons in stats
 
 ## Editing Guidelines
 
-When updating this profile:
+**When updating README.md:**
 
-1. **Maintain Professional Tone**: Balance technical expertise with personal interests (DevOps + fantasy/gaming)
-2. **Keep Structure**: Preserve the section hierarchy and visual layout
-3. **Test Widget URLs**: Ensure all external stat widgets render correctly before committing
-4. **Respect Theme**: Maintain transparent theme with `hide_border=true` for cohesive appearance
-5. **Update Stats Markers**: Don't remove HTML comment markers used for automated updates
-6. **Prioritize Automation**: When adding new dynamic content, prefer GitHub Actions workflows over manual updates
-7. **Visual Consistency**: New images in `/img/` should align with the technical/fantasy aesthetic
-8. **Link Strategy**: External links should open relevant profiles, projects, or documentation
-9. **Mobile-Friendly**: Test layout with different viewport widths
-10. **Semantic HTML**: Use appropriate HTML in markdown where needed (centering, tables, collapsible sections)
+1. **Maintain Structure** - Keep section hierarchy intact
+2. **Preserve Automation** - Never remove HTML comment markers for GitHub Actions
+3. **Test Widgets** - Verify all external URLs render before committing
+4. **Consistent Theme** - All widgets use `transparent` theme with `hide_border=true`
+5. **Real Data Only** - No placeholder text or fake repository links
+6. **Mobile Friendly** - Test layout responsiveness (especially tables)
+7. **Professional Balance** - Combine technical expertise with authentic personality
 
-## Quick Reference: Tools & Resources
+**When adding images to `/img/`:**
+- Maintain technical/fantasy aesthetic
+- Use PNG for icons/logos, JPG for photos
+- Reference in README as `img/filename.ext`
 
-### Dynamic Stats & Widgets
+## Common Issues & Troubleshooting
 
-- **GitHub Readme Stats**: `https://github-readme-stats.vercel.app/api?username=USERNAME&params`
-- **Streak Stats**: `https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&params`
-- **Activity Graph**: `https://github-readme-activity-graph.vercel.app/graph?username=USERNAME&params`
-- **Profile Trophy**: `https://github-profile-trophy.vercel.app/?username=USERNAME&params`
-- **Metrics**: `https://metrics.lecoq.io/USERNAME?template=classic&params`
-- **3D Contributions**: `https://github.com/yoshi389111/github-profile-3d-contrib`
+### Profile Not Displaying
+**Cause:** Repository is private, README is empty, or name doesn't match username
+**Fix:** Ensure repo is public, README has content, repo name is exactly `cosckoya`
 
-### GitHub Actions Workflows
+### Widgets Not Loading
+**Cause:** Service down, incorrect username, or invalid parameters
+**Fix:** Test URL directly in browser, verify `username=cosckoya`, check service status
 
-- **Blog Post Workflow**: `gautamkrishnar/blog-post-workflow`
-- **WakaTime Stats**: `anmol098/waka-readme-stats`
-- **Recent Activity**: `jamesgeorge007/github-activity-readme`
-- **Profile Summary Cards**: `vn7n24fzkq/github-profile-summary-cards`
+### Merge Conflict Committed
+**Cause:** Conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) were committed
+**Fix:** Remove markers, choose one version, commit clean file
 
-### Design Tools
+### Broken Image Links
+**Cause:** Image file moved, renamed, or doesn't exist
+**Fix:** Verify file exists in `img/` directory with correct name/extension
 
-- **Shields.io**: Custom badges for tech stack (`https://shields.io/`)
-- **Simple Icons**: Tech logos for badges (`https://simpleicons.org/`)
-- **Readme Typing SVG**: Animated text (`https://readme-typing-svg.herokuapp.com/`)
-- **Capsule Render**: Custom headers (`https://github.com/kyechan99/capsule-render`)
+### Stale Activity Section
+**Cause:** GitHub Actions workflow not running or misconfigured
+**Fix:** Check `.github/workflows/` for activity update workflow, verify schedule
 
-### Collections & Inspiration
+## GitHub Actions Automation
 
-- **Awesome GitHub Profile README**: `abhisheknaiidu/awesome-github-profile-readme`
-- **Creative Profile README**: `coderjojo/creative-profile-readme`
-- **GitHub Topics**: `github.com/topics/profile-readme` (4,600+ repos)
+**Potential Workflows** (add to `.github/workflows/` to automate):
 
-### Testing & Validation
+```yaml
+# Update Recent Activity
+# Uses: gautamkrishnar/blog-post-workflow
+# Updates: <!--START_SECTION:activity--> section
 
-- **GitHub Markdown Preview**: Use repository preview before committing
-- **Dark/Light Mode**: Test theme toggle in GitHub settings
-- **Mobile View**: Use browser responsive design mode
-- **Widget Parameters**: Test URL parameters in browser before embedding
+# Blog Post Integration
+# Uses: gautamkrishnar/blog-post-workflow (RSS feed)
+# Updates: <!-- BLOG-POST-LIST:START --> section
+
+# WakaTime Coding Stats
+# Uses: anmol098/waka-readme-stats
+# Adds: Weekly coding activity breakdown
+```
+
+## Quick Reference
+
+**Featured Repos:** Currently showing `.dotfiles` (7⭐) and `toolbox`
+**Contact Links:** LinkedIn, GitHub, GitHub Pages (cosckoya.github.io)
+**Theme Colors:** Blue (#58A6FF) for primary accent
+**Widget Services:** Vercel Apps (stats, typing), Herokuapp (streak)
+
+**Useful Commands:**
+```bash
+# Check what's tracked
+git ls-files
+
+# Verify .gitignore patterns
+git check-ignore -v .claude/
+
+# Preview README changes
+# Use GitHub's markdown preview or push to test branch
+
+# List public repos with stars
+gh repo list cosckoya --source --json name,stargazerCount,isPrivate
+```
+
+## 2026 Profile Best Practices Summary
+
+**Essential Elements:**
+- ✅ Dynamic auto-updating widgets (not static bio)
+- ✅ Clear professional identity statement
+- ✅ Real projects and metrics (not self-assessed skills)
+- ✅ GitHub Actions automation (not manual updates)
+- ✅ Responsive design (dark/light mode compatible)
+
+**Avoid:**
+- ❌ Wall of badges without context
+- ❌ Every technology ever touched
+- ❌ Broken widget links or placeholders
+- ❌ Excessive GIFs/animations
+- ❌ Generic template content
+- ❌ Manual sections that become stale
+
+**Balance:** Technical credibility + authentic personal voice + strategic CTAs
+
+---
+
+**Last Updated:** 2026-02-12
+**Profile Status:** ✅ Active, ⚠️ Featured repos set, ℹ️ Activity section ready for automation
