@@ -17,6 +17,8 @@ Specializing in scalable, secure, automated environments where **infrastructure*
 
 </div>
 
+<br>
+
 ## 🎯 Current Focus
 
 ```yaml
@@ -32,6 +34,8 @@ Philosophy: |
    and automation-driven. Architecture is not tooling — it is thinking."
 ```
 
+<br>
+
 ## 💼 Core Expertise
 
 <table>
@@ -42,23 +46,25 @@ Philosophy: |
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
 
-**AWS:** EKS, ECS, Lambda, VPC, IAM, Organizations
-**Azure:** OpenAI, Foundry, Identity, DevOps
-**Architecture:** Hybrid & multi-cloud environments
+- **AWS:** EKS, ECS, Lambda, VPC, IAM, Organizations
+- **Azure:** OpenAI, Foundry, Identity, DevOps
+- **Architecture:** Hybrid & multi-cloud environments
 
 ### 🛠️ Infrastructure as Code
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Pulumi](https://img.shields.io/badge/Pulumi-8A3391?style=flat-square&logo=pulumi&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 
-Terraform/OpenTofu, Pulumi, CloudFormation
-**GitOps:** ArgoCD, Flux
+- **IaC Tools:** Terraform/OpenTofu, Pulumi, CloudFormation
+- **GitOps:** ArgoCD, Flux
+- **Pattern:** Declarative infrastructure, version-controlled
 
 ### 🔐 Security & Reliability
 ![Security](https://img.shields.io/badge/Security-Critical-red?style=flat-square)
 
-Zero Trust, Secrets management, Policy as Code
-Cloud security posture, SRE patterns, Observability
+- **Security:** Zero Trust, Secrets management, Policy as Code
+- **SRE:** Cloud security posture, Observability, Monitoring
+- **Approach:** Security by design, defense in depth
 
 </td>
 <td width="50%" valign="top">
@@ -67,22 +73,24 @@ Cloud security posture, SRE patterns, Observability
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 
-CI/CD architecture, Internal Developer Platforms
-Golden Paths, Self-service infrastructure
-Developer Experience engineering
+- **CI/CD:** Pipeline architecture, automated deployments
+- **Platforms:** Internal Developer Platforms (IDP), Golden Paths
+- **Focus:** Self-service infrastructure, Developer Experience
 
 ### 🤖 AI & Modern Architectures
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-181818?style=flat-square&logo=anthropic&logoColor=white)
 
-**AI Platforms:** Azure OpenAI, AWS Bedrock
-**Models:** Claude, Amazon Nova
-**Protocols:** MCP (Model Context Protocol)
-**Systems:** Multi-agent architectures, AI orchestration
+- **Platforms:** Azure OpenAI, AWS Bedrock
+- **Models:** Claude (Opus/Sonnet), Amazon Nova
+- **Protocols:** MCP (Model Context Protocol)
+- **Systems:** Multi-agent architectures, AI orchestration
 
 </td>
 </tr>
 </table>
+
+<br>
 
 ## 🔧 Tech Stack & Tools
 
@@ -115,6 +123,8 @@ Developer Experience engineering
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
 </div>
+
+<br>
 
 ## 📊 GitHub Activity & Stats
 
@@ -160,6 +170,15 @@ Developer Experience engineering
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
+<div align="center">
+
+![GitHub Contribution Snake](https://raw.githubusercontent.com/cosckoya/cosckoya/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![GitHub Contribution Snake](https://raw.githubusercontent.com/cosckoya/cosckoya/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+</div>
+
+<br>
+
 ## 🎮 Beyond Code
 
 <div align="center">
@@ -173,23 +192,23 @@ When not architecting cloud systems, I immerse myself in the realms of **fantasy
 <td width="50%" valign="top">
 
 **⚔️ Fantasy & Lore**
-- Conan the Barbarian
-- Drizzt Do'Urden (R.A. Salvatore)
-- The Lord of the Rings
-- Discworld (Terry Pratchett)
-- Dungeons & Dragons
-- Cthulhu Mythos
+- 🗡️ Conan the Barbarian
+- 🌑 Drizzt Do'Urden (R.A. Salvatore)
+- 💍 The Lord of the Rings
+- 🐢 Discworld (Terry Pratchett)
+- 🎲 Dungeons & Dragons
+- 🦑 Cthulhu Mythos
 
 </td>
 <td width="50%" valign="top">
 
 **🎮 Games & Hobbies**
-- Skyrim (Anniversary Edition)
-- Lore-driven RPGs
-- Strategy games
-- Miniature painting
-- Magic: The Gathering
-- World-building & Fantasy literature
+- 🏔️ Skyrim (Anniversary Edition)
+- 📖 Lore-driven RPGs
+- ♟️ Strategy games
+- 🎨 Miniature painting
+- 🃏 Magic: The Gathering
+- 🌍 World-building & Fantasy literature
 
 </td>
 </tr>
@@ -223,7 +242,11 @@ I'm always interested in collaborating on **cloud infrastructure projects**, **A
 
 <sub>⭐ If you find my work valuable, consider starring my repositories • 🤝 Let's build something amazing together</sub>
 
+<br><br>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=cosckoya&color=58A6FF&style=flat-square&label=Profile+Views)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-February%202026-58A6FF?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 </div>
 
