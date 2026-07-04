@@ -32,9 +32,19 @@ but when there is nothing left to take away."
 
 <br>
 
+## `SKiLLS`
+
+<div align="center">
+  
+[![My Skills](https://skillicons.dev/icons?i=linux,vim,docker,kubernetes,aws,gcp,azure,py,go,java,terraform,ansible,git,github,githubactions,gitlab,jenkins,prometheus,grafana,elasticsearch&perline=5)](https://skillicons.dev)
+
+</div>
+
+<br>
+
 ## `BOOT SEQUENCE`
 
-```text
+```bash
 Initializing profile...
 
 Loading systems.......................OK
@@ -52,23 +62,7 @@ Ready.
   I secure, automate and scale what others build on top of.
 
   📍 Madrid, ES
-```
 
-<br>
-
-## `SKiLLS`
-
-<div align="center">
-  
-[![My Skills](https://skillicons.dev/icons?i=linux,vim,docker,kubernetes,aws,gcp,azure,py,go,java,terraform,ansible,git,github,githubactions,gitlab,jenkins,prometheus,grafana,elasticsearch&perline=5)](https://skillicons.dev)
-
-</div>
-
-<br>
-
-## `NOW`
-
-```yaml
 ┌──(cosckoya㉿madrid)-[~]
 └─$ cat ./currently-building.yaml
 
@@ -105,4 +99,5 @@ philosophy: >
   observable, secure, and intuitive. Every technical decision is
   ultimately a design decision, and every design decision shapes
   the experience of those who build upon it.
+
 ```
