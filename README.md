@@ -28,16 +28,39 @@
 ## `$ cat ./currently-building.yaml`
 
 ```yaml
+identity:
+  role: DevOps & Cloud Architect
+  focus:
+    - Platform Engineering
+    - Agentic AI
+    - Kubernetes
+    - Cloud Architecture
+    - Infrastructure as Code
+    - Cloud Security
+
 building:
-  - Multi-cloud AI infrastructure (AWS Bedrock + Azure OpenAI)
-  - MCP server development in Python
-  - Multi-agent AI systems with orchestration layers
-  - GitOps-driven platform engineering frameworks
+  - Enterprise AI platforms across AWS and Azure
+  - MCP servers and Python AI tooling
+  - Multi-agent orchestration frameworks
+  - GitOps-based platform ecosystems
+  - Secure Kubernetes infrastructures
+  - Automation pipelines and developer platforms
+
+principles:
+  - Automate repetitive work.
+  - Prefer platforms over scripts.
+  - Design for humans first.
+  - Security is an architectural property.
+  - Simplicity scales better than complexity.
+  - Documentation is part of the system.
 
 philosophy: >
-  Infrastructure is structure, intention, and narrative.
-  Systems must be understandable, scalable, secure by design,
-  and automation-driven. Architecture is not tooling — it is thinking.
+  Infrastructure is not servers, containers, or cloud providers.
+  It is the invisible architecture that enables people to create.
+  The best platforms disappear into the background: reliable,
+  observable, secure, and intuitive. Every technical decision is
+  ultimately a design decision, and every design decision shapes
+  the experience of those who build upon it.
 ```
 
 <br>
