@@ -96,26 +96,7 @@ philosophy: >
 
 <div align="center">
   
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
-
-
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=39FF14)
-![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=39FF14)
-![Bash](https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=gnu-bash&logoColor=39FF14)
-![YAML](https://img.shields.io/badge/YAML-000000?style=for-the-badge&logo=yaml&logoColor=39FF14)
-
-![Kubernetes](https://img.shields.io/badge/Kubernetes-000000?style=for-the-badge&logo=kubernetes&logoColor=39FF14)
-![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=39FF14)
-![Helm](https://img.shields.io/badge/Helm-000000?style=for-the-badge&logo=helm&logoColor=39FF14)
-
-![Terraform](https://img.shields.io/badge/Terraform-000000?style=for-the-badge&logo=terraform&logoColor=39FF14)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-000000?style=for-the-badge&logo=argo&logoColor=39FF14)
-![Pulumi](https://img.shields.io/badge/Pulumi-000000?style=for-the-badge&logo=pulumi&logoColor=39FF14)
-
-![GitHub Actions](https://img.shields.io/badge/GH_Actions-000000?style=for-the-badge&logo=github-actions&logoColor=39FF14)
-![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=39FF14)
-![AWS](https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazon-aws&logoColor=39FF14)
-![Azure](https://img.shields.io/badge/Azure-000000?style=for-the-badge&logo=microsoft-azure&logoColor=39FF14)
+[![My Skills](https://skillicons.dev/icons?i=linux,vim,docker,kubernetes,aws,gcp,azure,py,nodejs,ts,fastapi,terraform&perline=3)](https://skillicons.dev)
 
 </div>
 
