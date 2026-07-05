@@ -12,24 +12,6 @@
 
 </div>
 
-<div align="center">
-
-<br>
-
-```text
-The unseen architect.
-Designing the systems behind the systems.
-Building foundations that outlive their creators.
-Making complexity disappear.
-
-
-"Perfection is achieved, not when there is nothing more to add,
-but when there is nothing left to take away."
-
-— Antoine de Saint-Exupéry
-```
-</div>
-
 <br>
 
 ## `SKiLLS`
@@ -101,3 +83,21 @@ philosophy: >
   the experience of those who build upon it.
 
 ```
+
+<div align="center">
+
+<br>
+
+```text
+The unseen architect.
+Designing the systems behind the systems.
+Building foundations that outlive their creators.
+Making complexity disappear.
+
+
+"Perfection is achieved, not when there is nothing more to add,
+but when there is nothing left to take away."
+
+— Antoine de Saint-Exupéry
+```
+</div>
